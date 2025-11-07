@@ -10,10 +10,11 @@ interface Props {
 
 export const TopBar: React.FC<Props> = ({ classname }) => {
     return (
-        <div className={cn('sticky top-0 bg-gray shadow-lg shadow-black/5 z-10', classname)}>
-            <Container/>
+        <div className={cn('sticky top-0 z-10 bg-white shadow-lg shadow-black/6', classname)}>
+            <Container className="flext items-center justify-between">
             <Categories />
             <SortPopup classname="ml-20"/>
+            </Container>
         </div>
     );
 }; 
