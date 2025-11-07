@@ -16,7 +16,7 @@ html {
   --card-foreground: 20 14.3% 4.1%;
   --popover: 0 0% 100%;
   --popover-foreground: 20 14.3% 4.1%;
-  --primary: 25 95% 53%; /* Оранжевый цвет в HSL */
+  --primary: 25 95% 53%; 
   --primary-foreground: 0 0% 100%;
   --secondary: 32 100% 98%;
   --secondary-foreground: 24 9.8% 10%;
@@ -28,7 +28,7 @@ html {
   --destructive-foreground: 60 9.1% 97.8%;
   --border: 20 5.9% 90%;
   --input: 0 0% 90%;
-  --ring: 25 95% 53%; /* Тот же оранжевый для кольца фокуса */
+  --ring: 25 95% 53%; 
   --radius: 18px;
 }
 
@@ -77,7 +77,7 @@ body {
   border-left-color: hsl(var(--primary)) !important;
 }
 
-/* Добавьте в конец файла */
+
 .btn-orange {
   border-color: #ff6b35 !important;
   color: #ff6b35 !important;
